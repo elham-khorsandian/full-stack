@@ -52,6 +52,7 @@ const CourseList = () => {
         <h3>Find your next course...</h3>
         <Search onChange={handleSearch} />
       </div>
+      <h3 className="click">Click on each course to find out more...</h3>
       <div className="courseList">{courseJSX()}</div>
     </>
   );
